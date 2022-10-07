@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Validador de datos</title>
+<meta charset="utf-8" />
+<script src="ejercicio1.js"></script>
+</head>
+<body>
+<div class="container ">
+<div class="m-4 d-flex h-100 w-100 justify-content-center aling-items-center">
+<div class="col-auto bg-light p-5">
+<form action="javascript:void(0)" name="frmdatos" id="dataform">
+<h2 >Validador de datos</h2>
+<div class="input-group p-2">
+<label class="form-label" for="tipo">Seleccione el tipo de dato:</label>&nbsp;&nbsp;
+<select class="form-select" name="seltipo" id="tipo">
+<option value="ipv4" selected>direccion ipv4</option>
+<option value="web">direccion web</option>
+<option value="correo">correo electronico</option>
+</select>
+</div>
+<div class="input-group p-2">
+<label class="form-label" for="txtdato">Dato:</label>&nbsp;&nbsp;
+<input class="form-control" type="text" name="txtdato" id="data" value="" maxlength="20" placeholder="(Ingrese el
+dato)" /><br />
+</div>
+<input class="w-100 btn btn-primary" type="button" name="btnvalidar" id="validar" value="Validar" />
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
